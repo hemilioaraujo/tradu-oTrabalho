@@ -26,3 +26,33 @@ Em [4] os autores discutem o método de encontrar os itens mais frequentes usand
 Em [6] o método de decomposição do valor singular is used to find a correlação entre multiplos fluxos. O método de SVD era particularmente usado para encontrar fluxo de dados offline. Clusterização de fluxos de dados de texto é um dos tópicos que evoluiram como importante desafio para pesquisas de mineração de dados. O problema de detecção de spam, filtro de email, clusterização de comportamento de clientes, detecção e identificação de tópicos, clusterização de documentos são interesses típicos das pesquisas em mineração de dados.
 
 Em [7], Liu e outros discutem sobre clusterização de fluxo de dados de texto. A ideia é ampliar a semantica existente a qual fuciona bem com fluxo de dados estáticos para clusterização dinâmica de fluxo de dados. Os autores propõem dois algoritimos de clusterização online (OCTS e OCTSM) para clusterização de fluxo de dados massívos de texto.
+
+Uma tremenda quantidade de dados são gerados pela internet a todo instante de várias formas como redes sociais, dados de sensores, facebook e twitter. Os dados que surgem pela internet também são chamados de fluxo de mensagens de texto, que saõ gerados de vários aplicativos de mensagens instantâneas e chats na internet.
+
+Este tornou-se um tema primordial que se tornou um tema de interesse para os pesquisadores que trabalham na área de mineração de dados e tem muito espaço para trabalhar para contribuir com a comunidade de pesquisa.
+
+Na ACM SIGIR, realizada em 2006, os autores, Shen, Yang e outros [8], propuseram  o método de detectar os threads nods fluxos de dados dinâmicos. O artigo discute três variações de algoritimo de clusterização de passagem única seguidos por um novo algorítimo de clusterização baseado em características linguísticas. Um método de redução de dimensão de fluxo de dados usando algorítmos de supervisão escalada é proposto em [9].
+
+As limitações das abordagens de PCA, LDA e MMC são discutidas. Os autores apontam inadequação do MMC para fluxo de dados. Um algorítimo supervisionado de reduçao de dimensão incremental é proposto para encontrar os requisitos do conjunto de fluxo de dados. Em [10] os autores mostram que o resultados mais citados são inválidos.
+
+3. Problemas no tratamento de fluxo de dados nas pesquisas
+
+A tabela abaixo mostra a comparação do processamento em banco de dados e em fluxo de dados.
+
+|Nº|Parâmetro|Banco de dados|Fluxo de dados|
+|----|-----------|----------------|----------------|
+|1|Acesso aos dados|Pode ou não ser sequencial|Sequencial|
+|2|Memória disponível|Flexível|Memória limitada|
+|3|Difusão de dados|Não distribuído|Distribuído|
+|4|Resultado comutacional|Preciso|Aproximado|
+|5|Verificação de dados|Flexível|Limitado a uma verificação|
+|6|Algorítimos|Tempo de processamento não é restrição|Tempo de processamento é mais importante do que dados perdidos|
+|7|Amostras|Não necessário|Complexo de decidir quando obter amostra|
+|8|Velocidade dos dados|Pode ser ignorado|Chegada dos dados é mais rápida que a taxa de processamento|
+|9|Modelagem de dados|Permanente|Modelado como fluxo de dados transientes|
+|10|Esquema de dados|Estático|Dinâmico|
+
+
+[RETORNAR]
+
+[RETORNAR]: https://github.com/hemilioaraujo/traducaoTrabalho/blob/master/README.md
