@@ -52,6 +52,13 @@ A tabela abaixo mostra a comparação do processamento em banco de dados e em fl
 |9|Modelagem de dados|Permanente|Modelado como fluxo de dados transientes|
 |10|Esquema de dados|Estático|Dinâmico|
 
+* 3.1 Restrição de memória
+
+O principal fator que precisamos reduzir, no tratamento de fluxo de dados é a quantidade de memória requerida pelo algorítimo de mineração de dados usado ou em desenvolvimento. Os algorítimos desenvolvidos para dados estáticos também chamados de dados non-stream, não são mais viáveis para manipular dados de um fluxo ou fluxo de dados. O desafio em trabalhar com fluxos de dados é que os dados tem sido gerados não são regulares e principalmente com tempo de intervalo irregulares. O foco do algorítimo deve ser essencialmente na otimização da memória utilizada pelo algorítimo de processamento. Uma vez que o dado no fluxo de dados é dinâmico, isto não está em mãos no instande de processa-los e também podem não estar em formato apropriado. A quantidade de dados gerados é geralmente enorme e continua crescendo e aumentando à medida que o tempo avança, isso torna a situação mais complicada ao lidar com dados de fluxo.
+
+* 3.2 Preprocessamento de dados
+
+
 
 [RETORNAR]
 
