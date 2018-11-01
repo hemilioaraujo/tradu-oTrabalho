@@ -2,8 +2,11 @@
 
 ### Traduzindo artigos para português para uso em trabalho de banco de dados
 
+..* ARTIGOS
 
-[Data mining - past present and future]
+..* [DATA MINING - PAST PRESENT AND FUTURE]
+
+..* [USING DATA MINING FOR BANK DIRECT MARKETING]
 
 [//]:[plugins/googleanalytics/README.md][PlGa]
 
