@@ -56,9 +56,92 @@ A tabela abaixo mostra a comparação do processamento em banco de dados e em fl
 
 O principal fator que precisamos reduzir, no tratamento de fluxo de dados é a quantidade de memória requerida pelo algorítimo de mineração de dados usado ou em desenvolvimento. Os algorítimos desenvolvidos para dados estáticos também chamados de dados non-stream, não são mais viáveis para manipular dados de um fluxo ou fluxo de dados. O desafio em trabalhar com fluxos de dados é que os dados tem sido gerados não são regulares e principalmente com tempo de intervalo irregulares. O foco do algorítimo deve ser essencialmente na otimização da memória utilizada pelo algorítimo de processamento. Uma vez que o dado no fluxo de dados é dinâmico, isto não está em mãos no instande de processa-los e também podem não estar em formato apropriado. A quantidade de dados gerados é geralmente enorme e continua crescendo e aumentando à medida que o tempo avança, isso torna a situação mais complicada ao lidar com dados de fluxo.
 
-* 3.2 Preprocessamento de dados
+* 3.2 Pré-processamento de dados
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Referências
+
+[1] Bifet A, Holmes G, et.al. Mining Frequent Closed graphs on evolving data streams. Proceedings of 17th ACM SIGKDD International
+Conference on knowledge discovery and data mining, 2011: 591-98.
+
+[2] Charu C. Aggarwal, Jiawei Han, Philip S. Yu. On Demand Classification of Data Streams, in the proceedings of ACM KDD’04, USA, 2004.
+
+[3] Hoang Thanh Lam, Toon Calders, Mining Top-K Frequent Items in a Data Stream with Flexible Sliding Windows. Proceedings of in the
+proceedings of ACM KDD’10, USA, 2010.
+
+[4] Cheqing Jin et.al. Dynamically Maintaining Frequent Items over a Data Stream, in the proceedings of CIKM USA, 2003.
+
+[5] Nan Jiang and Le Grunewald. Research Issues in Data Stream Association Rule Mining, SIGMOD Record, 2006: 35(1).
+
+[6] Sudipta Guha, D.Gunopulos, N. Kaudas. Correlating synchronous and asynchronous data streams, in the proceedings of SIGKDD 2003 held
+from august 24th -27th, USA, 2003.
+
+[7] Yu.Bao.Liu et.al. Clustering Text data streams, Journal of computer science and technology, volume 23, issue 1, pages 112-128, 2008.
+
+[8] Dou Shen,Qiang Yang, Jian-Tuo-Sun, Zheng Chen. Thread Detection in Dynamic Text Message Streams, in the proceedings of SIGIR USA, 2003.
+
+[9] Jun Yan et.al. A scalable supervised algorithm for dimensionality reduction on streaming data. Information Sciences, An International
+Journal, Published by Elsevier, 2006; 176: 2042-65.
+
+[10] L.Rutkowski et.al. Decision trees for mining data streams based on the McDiarmid’s bound. IEEE Transactions on Knowledge and Data
+Engineering, 2013; 25(6).
+
+[11] Jun Yan et.al, “Effective and Efficient Dimensionality Reduction for Large-Scale and Streaming Data Preprocessing”, published in the IEEE
+Transactions on Knowledge and Data Engineering, 2006; 18(2).
+
+[12] Graham Cormode et.al. Comparing Data Streams Using Hamming Norms (How to Zero In). IEEE Transactions on Knowledge and Data
+Engineering, 2003; 15(3).
+
+[13] Chen Ling, Zou Ling-Jun, Tu Li, Clustering algorithm for multiple data streams based on spectral component similarity, Information
+Sciences, An International Journal, Published by Elsevier, 2012; 183: 35-47.
+
+[14] Panagiotis Antonellis, Christos Makris, Nikos Tsirakis. Algorithms for clustering click stream data. Information Processing Letters 109,
+published by Elsevier, 2009: 381–385.
+
+[15] Chang-Dong Wang, Dong Huang. A support vector based algorithm for clustering data streams, published in the IEEE Transactions on
+Knowledge and Data Engineering, 2013; 25(6).
+
+[16] Shi Zhong. Efficient streaming text clustering, Neural Networks, Neural Networks, published by Elsevier, 2005;18: 790–798.
+
+[17] Pedro Pereira Rodrigues, Joao Gama and Joao Pedro Pedroso, “Hierarchical Clustering of Time Series Data Streams”, published in the IEEE
+Transactions on Knowledge and Data Engineering, 2008; 20(5).
+
+[18] Vaneet Aggarwal, Shankar Krishnan. Achieving Approximate Soft Clustering in Data Streams, 2012. http://arxiv.org/abs/1207.6199.
+
+[19] Haiyan Zhou, Xiaolin Bai, Jinsong Shan.A Rough-Set-based Clustering Algorithm for Multi-stream. Procedia Engineering, 2011; 15: 1854-58.
+
+[20] Hua-Fu Li, Suh-Yin Lee. Approximate mining of maximal frequent itemsets in data streams with different window models, Expert Systems
+with Applications, 2008; 35: 781–789.
 
 [RETORNAR]
 
