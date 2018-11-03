@@ -74,11 +74,13 @@ A escolha de uma estrutura adequada e efetiva é também um dos critérios que n
 
 * 3.5 Identificando distribuições de dados e conceitos de destino
 
+Outro fator importante ao considerar mineração de fluxo de dados é identificar as mudanças nas distribuições de dados e conceitos de destino no decorrer do tempo. Identificando e explorando estas variações e adaptando classificadores adequados aos desvios de conceito também é um dos maiores desafios para os pesquisadores de mineração de dados desenvolverem novos algorítimos escalaveis para trabalhar com fluxo de dados.
 
+* 3.6 Redução da dimensão
 
+Embora as técnicas matemáticas ou estatísticas estavam disponíveis na literatura anteriormente, a importância e adequação dessas técnicas estão sendo muito exploradas pelos pesquisadores de mineração de dados muito recentimente. O problema da redução de dimensão é estudada aplicando as abordagens matemática e estatística. No entanto, lidar com dimensionalidade ainda é um problema na mineração de dados quando se trabalha com dados estáticos ou dinâmicos.
 
-
-
+4. Padrões frequentes dos fluxos de dados
 
 
 
