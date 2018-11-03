@@ -58,7 +58,13 @@ O principal fator que precisamos reduzir, no tratamento de fluxo de dados é a q
 
 * 3.2 Pré-processamento de dados
 
+A tarefa de processar dados é tambem um critério que se deve ter muito cuidado no processo de mineração de dados. O dado de entrada para o algorítimo de mineração de dados não precisa estar em formato adequado e por isso não é adequado para um processamento eficiente. Neste caso, nós precisamos de ver os dados em formato adequado para que este seja adequado para processamento. Este caso geralmente chega quando nós tentamos mineirar dados usando as ferramentas de mineração ou algorítimos existentes. Diferentes ferramentas de mineração disponíveis no mercado tem diferentes formatos de entrada de dados o que faz o usuário a converter o conjunto de dados de entrada existente para o novo formato. ISto por si só consome muito tempo, é trabalhoso e tem a chance de perder dados pois o dados é para ser inserido manualmente dentro de um novo formato que é suportado pela ferramenta.
 
+O segundo fator é o tamanho do dos dados. A dimensão dos dados podem ser muito grande o que torna muito mais complexo para analizar. Muito do tempo de algorítimo é perdido neste caso. Um cuidado adequado deve ser tomado na redução do tamanho dos dados o que por outro lado pode ser muito destrutivo para o tempo de execução dos algorítimos. Por exemplo, se nós consideramos dados em texto, haverá vários recursos que serão desnecessários e indesejados, que não contribuirão para a tomada de decisão ou análise.
+
+Redução da dimensão dos conjuntos de dados de entrada também ajudam na redução de memória necessária e assim alcança a eficiência do algorítimo de mineração de dados.
+
+* 3.3 Desafios no desenvolvimento de algorítimos padrões de mineração de dados
 
 
 
