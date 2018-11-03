@@ -66,6 +66,14 @@ Redução da dimensão dos conjuntos de dados de entrada também ajudam na redu�
 
 * 3.3 Desafios no desenvolvimento de algorítimos padrões de mineração de dados
 
+Embora maiores quantidades de memória estejam disponíveis atualmente, o fator memória está dominando o campo da mineração de dados e colocando desafios para os pesquisadores deste campo, mais especificadamente o campo de fluxo de dados. A razão para isso é a exigência de memória principal o que é normalmente muito menor comparado a outras memórias disponíveis fora do processador. Desenvolver algorítimos padrões para lidar com fluxo de dados é um tanto quanto trabalhoso, pois temos a limitação de memória principal. Encontrar itens frequentes usando algorítimo de passagem simples é também impraticável no caso de trabalho com fluxo de dados por causa da natureza dinâmica do fluxo de dados.
+
+* 3.4 Escolha da estrutura dos dados
+
+A escolha de uma estrutura adequada e efetiva é também um dos critérios que necessitam de cuidados no desenvolvimento  de algorítimos para fluxo de dados.
+
+* 3.5 Identificando distribuições de dados e conceitos de destino
+
 
 
 
