@@ -82,7 +82,7 @@ Embora as técnicas matemáticas ou estatísticas estavam disponíveis na litera
 
 4. Padrões frequentes dos fluxos de dados
 
-
+Consideramos o método de encontrar os itens frequentes de um fluxo de dados usando sliding windows(janelas deslizantes). Seja S a janela deslizante de tamanho n com I = {i1, i2, i3...im} como conjunto de todos os itens disponíveis. Dependendo do tipo de transação feita, a transação Tj pode conter todo o conjunto de itens indicados através de I ou apenas um conjunto apropriado de I como seus itens.
 
 
 
