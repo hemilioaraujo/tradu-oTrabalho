@@ -84,7 +84,9 @@ Embora as técnicas matemáticas ou estatísticas estavam disponíveis na litera
 
 Consideramos o método de encontrar os itens frequentes de um fluxo de dados usando sliding windows(janelas deslizantes). Seja S a janela deslizante de tamanho n com I = {i1, i2, i3...im} como conjunto de todos os itens disponíveis. Dependendo do tipo de transação feita, a transação Tj pode conter todo o conjunto de itens indicados através de I ou apenas um conjunto apropriado de I como seus itens.
 
+Seja A e B dois itens quaisquer na transação. O vetor binário para A e B é demonstrado por Bin-Vector(A) e  Bin-Vector(B).
 
+Agora, como o tamanho da janela deslizante é restrito a contar n transações, restringimmos a representação do vetor binário para que os itens A e B para ser na forma n-bit binary vector.
 
 
 
@@ -162,3 +164,5 @@ with Applications, 2008; 35: 781–789.
 [RETORNAR]
 
 [RETORNAR]: https://github.com/hemilioaraujo/traducaoTrabalho/blob/master/README.md
+
+[Sliding Window]: https://www.coursera.org/lecture/machine-learning/sliding-windows-bQhq3
