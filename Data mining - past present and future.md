@@ -88,12 +88,12 @@ Seja A e B dois itens quaisquer na transação. O vetor binário para A e B é d
 
 Agora, como o tamanho da janela deslizante é restrito a contar n transações, restringimmos a representação do vetor binário dos itens A e B para ser na forma de vetor binário n-bit como no exemplo:
 
-    Vetor_Binario(A) = A1 A2 A3 A4... An
-    Vetor_Binario(B) = B1 B2 B3 B4... Bn
+> Vetor_Binario(A) = A1 A2 A3 A4... An
+> Vetor_Binario(B) = B1 B2 B3 B4... Bn
 
-Onde n é o tamanho da janela deslizante.
+*Onde n é o tamanho da janela deslizante.*
 
-Se um item A é presente na transação Ti então o bit do Vetor_Binario(A) correspondente é setado em 1. Igualmente, se o item A não  está presente na transação Ti o bit do Vetor_Binario(A) correspondente é setado em 0.
+Se um item A é presente na transação Ti então o bit do Vetor_Binario(A) correspondente é setado em 1. Igualmente, se o item A não  está presente na transação Ti o bit do Vetor_Binario(A) correspondente é setado em 0. Isto é demonstrado como os nós primeiro nível do Padrão Frequente de Geração de Árvores chamado FPGT (Frequent-Pattern-Generation-Tree) - [fig.1].
 
 
 
