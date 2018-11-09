@@ -207,8 +207,11 @@ Seja o fluxo de dados de entrada das transações como mostrado na [Tabela.3]
 Inicialmente O forme vetor de binários para toda a lista estática de itens no conjunto de itens definido como I = {I1, I2, I3, I4} = {A, B, C, D}.
 
 Vetor_Binario(A) = 10100
+
 Vetor_Binario(B) = 11111
+
 Vetor_Binario(C) = 11110
+
 Vetor_Binario(D) = 01001
 
 Onde A, B, C e D são todos vetores binários de 5 bits.
