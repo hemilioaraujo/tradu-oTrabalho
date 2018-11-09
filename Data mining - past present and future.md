@@ -1,10 +1,21 @@
 # Mineração de dados - Passado, Presente e Futuro - uma pesquisa sobre fluxo de dados
 
-**M.S.B. PhridviRaj (A), C.V. GuruRao (B)**
+## Autores:
 
-**A** - Departamento de Ciência e Engenharia da Computação, Kakatiya Instituto de Tecnologia e Ciência, Warangal, INDIA
+### M.S.B. PhridviRaj
+>> Departamento de Ciência e Engenharia da Computação
+>> Instituto de Tecnologia e Ciência Kakatiya, Warangal, INDIA
 
-**B** - Departamento de Ciência e Engenharia da Computação, S.R. Faculdade Engenharia (Autônomo), Hasanparthy, Warangal,INDIA
+### C.V. Guru Rao 
+>> Departamento de Ciência e Engenharia da Computação
+>> S.R. Faculdade Engenharia (Autônomo), Hasanparthy, Warangal,INDIA
+
+##Tradução
+### Hemílio Lauro de Araújo Melo
+>> Estudante de Ciência da Computação
+>> Universidade Presidente Antônio Carlos, Minas Gerais, Brasil
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br />Este obra está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Atribuição-SemDerivações-SemDerivados 3.0 Não Adaptada</a>.
 
 ## Abstrato
 
@@ -299,3 +310,5 @@ with Applications, 2008; 35: 781–789.
 [RETORNAR]: https://github.com/hemilioaraujo/traducaoTrabalho/blob/master/README.md
 
 [Sliding Window]: https://www.coursera.org/lecture/machine-learning/sliding-windows-bQhq3
+
+[Licença CC BY-NC-ND]: https://creativecommons.org/licenses/by-nc-nd/3.0/deed.pt_BR
