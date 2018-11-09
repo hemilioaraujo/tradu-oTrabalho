@@ -1,4 +1,7 @@
-# Tradução do artigo [DATA MINING - PAST PRESENT AND FUTURE] para português para ser usado em trabalho de banco de dados
+# Tradução do artigo: <br>
+# [DATA MINING - PAST PRESENT AND FUTURE]<br>
+# para português para ser usado
+# em trabalho de banco de dados
 
 [//]:[plugins/googleanalytics/README.md][PlGa]
 
