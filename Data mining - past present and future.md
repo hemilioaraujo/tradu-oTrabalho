@@ -5,13 +5,13 @@ metodologias e resultados em várias aplicações relacionadas à previsão de m
 Com os enormes dados online gerados a partir de vários sensores, o Internet Relay Chats, o Twitter, o Facebook, Transações de Online Bank ou ATM, o conceito de dados que mudam dinamicamente está se tornando um desafio-chave, o que chamamos de fluxos de dados. Nesse papel,
 nós damos o algoritmo para encontrar padrões freqüentes de fluxos de dados com um estudo de caso e identificar os problemas de pesquisa em manipulação de fluxos de dados.
 
-1. Introdução
+## 1. Introdução
 
 Mineração de dados é o processo de encontrar padrões e informações escondidas nos dados existentes. A diferença entre o dado no banco de dados e o dado em um data warehouse é que no banco de dados os dados estão sempre de forma estruturada enquanto no data warehouse nem sempre os dados estão estruturados. A  estrutura dos dados devem ser definidas para tornar-lo compatível para processamento. Consequentemente na mineração de dados precisamos de concentrar primeiramente na limpeza dos dados, tornando-o viável para futuros processamentos. O processo de limpeza dos dados tambem é conhecido como eliminação de ruído, redução de ruído ou eliminação de recursos. Ele pode ser feito usando ferramentas como ETL, ferramentas disponíveis no mercado ou pode ser feito usando várias técnicas adequadas disponíveis. O aspecto importante a ser considerado na mineração de dados é se os dados considerados são estáicos ou dinâmicos. A manipulação de dodos estáticos comparados com dados dinâmicos é muito mais fácil. No caso de um conjunto de dados estático, todos os dados estão a disposição para fins de análise antes do processamento e geralmente não são dados que variam com o tempo. No entanto, dados dinâmicos referem a dados continuamente variáveis e volumosos, variam com o tempo e não estão em mãos antes do processamento.
 
 A mineração de dados requer um algoritmo ou método para analizar o dado de interesse.Os dados podem ser dado de sequência, dados sequênciais, séries temporais, espaço-temporais, sinais de audio, sinais de vídeo entre outros. O conceito de fluxo de dados tem ganhou muito interesse prático no campo da mineração de dados. O fluxo de dados é uma sequência infinita de pontos definidos usando marcadores de tempo ou um índice. Nós tambem podemos ver os dados nos fluxos de dados como um vetor multidimensional contendo número inteiro, categórico, gráfico com os dados na forma estruturada ou não estruturado. Se o dado é não estruturado, talvez tenhamos de transformar em um formato compatível para o processamento pelo algoritmo que está sendo usado. Com o altíssimio volume de dados contínuos estruturados e não estruturados sendo gerados por aplicações e dispositívos, o conceito de dado não é mais stático e está se tornando dinâmico. Isto trás muitos desafios na análize de dados. Tradicionalmente os algoritmos de mineração de dados não são compatíveis para manipular fluxo de dados porque os algoritmos projetados realizam várias varreduras sobre os dados, o que não é possível fazer com fluxo de dados. Isso traz um desafio real aos pesquisadores de mineração de dados que estão trabalhando na área de fluxo de dados.
 
-2. Trabalhos Relacionados
+* 2. Trabalhos Relacionados
 
 No caso de fluxo de dados, o número de recursos distintos ou itens existentes seriam muito grande, o que faria que a memória cache ou memória do sistema disponíveis não seriam adequadas para guardar todo o fluxo de dados. O problema principal com fluxo de dados é a velocidade em que ele chega, pois é mais rápida que a taxa na qual os dados podem ser processados e armazenados.
 
@@ -35,7 +35,7 @@ Na ACM SIGIR, realizada em 2006, os autores, Shen, Yang e outros [8], propuseram
 
 As limitações das abordagens de PCA, LDA e MMC são discutidas. Os autores apontam inadequação do MMC para fluxo de dados. Um algoritmo supervisionado de reduçao de dimensão incremental é proposto para encontrar os requisitos do conjunto de fluxo de dados. Em [10] os autores mostram que o resultados mais citados são inválidos.
 
-3. Problemas no tratamento de fluxo de dados nas pesquisas
+* 3. Problemas no tratamento de fluxo de dados nas pesquisas
 
 A [Tabela.1] abaixo mostra a comparação do processamento em banco de dados e em fluxo de dados.
 
@@ -82,7 +82,7 @@ Outro fator importante ao considerar mineração de fluxo de dados é identifica
 
 Embora as técnicas matemáticas ou estatísticas estavam disponíveis na literatura anteriormente, a importância e adequação dessas técnicas estão sendo muito exploradas pelos pesquisadores de mineração de dados muito recentimente. O problema da redução de dimensão é estudada aplicando as abordagens matemática e estatística. No entanto, lidar com dimensionalidade ainda é um problema na mineração de dados quando se trabalha com dados estáticos ou dinâmicos.
 
-4. Padrões frequentes dos fluxos de dados
+* 4. Padrões frequentes dos fluxos de dados
 
 Consideramos o método de encontrar os itens frequentes de um fluxo de dados usando sliding windows(janelas deslizantes). Seja S a janela deslizante de tamanho n com I = {i1, i2, i3...im} como conjunto de todos os itens disponíveis. Dependendo do tipo de transação feita, a transação Tj pode conter todo o conjunto de itens indicados através de I ou apenas um conjunto apropriado de I como seus itens.
 
@@ -221,9 +221,15 @@ Agora já que todos os itens tem o contador de 1's maior que 1. Isto significa q
   Fig.3 Final FPGT Frequent Pattern Generation Tree <br>
 </p>
 
+Nas [Fig.1], [Fig.2], [Fig.3] os nós rotulados em preto são nós vivos e ativos. Os nós rotulados em verde não são nós ou itens fechados. Os nós rotulados de vermelho são nós mortos. Os nós no primeiro nível nunca são mortos, somente são rotulados em verde para indicar que eles não são nós fechados.
 
+Desde que temos todos os itens frequentes(nós vivos), nós podemos encontrar os top-K padrões frequentes exibindo os primeiros K-itens do maior valor de suporte para o menor valor de suporte.
 
+> **If** K=3 então o top-3 termos frequentes são {B, BC, BD}.
 
+* 5. Conclusão
+
+Devido aos dados ilimitados, enormes e grande volume de dados sendo gerados através de varias aplicações como fluxo de dados, é bem comum lidar com eles por causa de sua natureza dinâmica, irregular e variante. O problema de lidar com fluxos para clusterização, classificação e detecção de tópicos ainda í um desafio e tem uma grande chance de eploração para pesquisadores de mineração de dados para continuarem seus trabalhos. Neste artigo, encontramos o padrão frequente de fluxo de dados usando o algoritmo definido o qual usa FPGT. O fluxo de trabalho do algoritmo é rastreado. O algoritmo lista todos os padrões frequentes possíveis e pode ser usado para encontrar top-K itens frequentes.
 
 
 * Referências
