@@ -204,36 +204,9 @@ Isto significa que:
 >
 > Suporte(D) = 2
 
-Agora desde que todos os itens tenham o contador de 1's maior que 1. Isto significa que todos os nós estão vivos como mostra no nível-1 da árvore. As imagens a seguir são auto explicativas e demonstram o registro do algoritmo proposto.
+Agora já que todos os itens tem o contador de 1's maior que 1. Isto significa que todos os nós estão vivos como mostra no nível-1 da árvore. As imagens a seguir são auto explicativas e demonstram o registro do algoritmo proposto.
 
 
-
-<table>
-    <thead>
-        <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
-        </tr>
-        <tr>
-            <td>L3 Name B</td>
-        </tr>
-        <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
-        </tr>
-        <tr>
-            <td>L3 Name D</td>
-        </tr>
-    </tbody>
-</table>
 
 
 
