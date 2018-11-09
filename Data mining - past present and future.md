@@ -207,20 +207,19 @@ Isto significa que:
 Agora já que todos os itens tem o contador de 1's maior que 1. Isto significa que todos os nós estão vivos como mostra no nível-1 da árvore. As imagens a seguir são auto explicativas e demonstram o registro do algoritmo proposto.
 
 <p align="center">
-  <img width="560" height="400" src="https://github.com/hemilioaraujo/traducaoTrabalho/blob/master/img/fig1.jpg"> <br>
+  <img width="760" height="600" src="https://github.com/hemilioaraujo/traducaoTrabalho/blob/master/img/fig1.jpg"> <br>
   Fig.1 FPGT Frequent Pattern Generation Tree mostrando a criação do nó raiz e trabalhando SW1 <br>
-  
-  <img width="560" height="400" src="https://github.com/hemilioaraujo/traducaoTrabalho/blob/master/img/fig2.jpg"> <br>
-  Fig.1 FPGT Frequent Pattern Generation Tree mostrando a criação do nó raiz e trabalhando SW1<br>
-  
-  <img width="560" height="400" src="https://github.com/hemilioaraujo/traducaoTrabalho/blob/master/img/fig3.jpg"> <br>
-  Fig.1 FPGT Frequent Pattern Generation Tree mostrando a criação do nó raiz e trabalhando SW1<br>
 </p>
 
+<p align="center">
+  <img width="760" height="600" src="https://github.com/hemilioaraujo/traducaoTrabalho/blob/master/img/fig2.jpg"> <br>
+  Fig.2 FPGT Frequent Pattern Generation Tree mostrando eliminação dos nós quando SW1 desliza e SW2 está ativa<br>
+</p>
 
-
-
-
+<p align="center">
+  <img width="760" height="600" src="https://github.com/hemilioaraujo/traducaoTrabalho/blob/master/img/fig3.jpg"> <br>
+  Fig.3 Final FPGT Frequent Pattern Generation Tree <br>
+</p>
 
 
 
