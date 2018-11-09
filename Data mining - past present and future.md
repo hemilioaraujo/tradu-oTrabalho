@@ -9,7 +9,7 @@ nós damos o algoritmo para encontrar padrões freqüentes de fluxos de dados co
 
 Mineração de dados é o processo de encontrar padrões e informações escondidas nos dados existentes. A diferença entre o dado no banco de dados e o dado em um data warehouse é que no banco de dados os dados estão sempre de forma estruturada enquanto no data warehouse nem sempre os dados estão estruturados. A  estrutura dos dados devem ser definidas para tornar-lo compatível para processamento. Consequentemente na mineração de dados precisamos de concentrar primeiramente na limpeza dos dados, tornando-o viável para futuros processamentos. O processo de limpeza dos dados tambem é conhecido como eliminação de ruído, redução de ruído ou eliminação de recursos. Ele pode ser feito usando ferramentas como ETL, ferramentas disponíveis no mercado ou pode ser feito usando várias técnicas adequadas disponíveis. O aspecto importante a ser considerado na mineração de dados é se os dados considerados são estáicos ou dinâmicos. A manipulação de dodos estáticos comparados com dados dinâmicos é muito mais fácil. No caso de um conjunto de dados estático, todos os dados estão a disposição para fins de análise antes do processamento e geralmente não são dados que variam com o tempo. No entanto, dados dinâmicos referem a dados continuamente variáveis e volumosos, variam com o tempo e não estão em mãos antes do processamento.
 
-A mineração de dados requer um algorítimo ou método para analizar o dado de interesse.Os dados podem ser dado de sequência, dados sequênciais, séries temporais, espaço-temporais, sinais de audio, sinais de vídeo entre outros. O conceito de fluxo de dados tem ganhou muito interesse prático no campo da mineração de dados. O fluxo de dados é uma sequência infinita de pontos definidos usando marcadores de tempo ou um índice. Nós tambem podemos ver os dados nos fluxos de dados como um vetor multidimensional contendo número inteiro, categórico, gráfico com os dados na forma estruturada ou não estruturado. Se o dado é não estruturado, talvez tenhamos de transformar em um formato compatível para o processamento pelo algorítimo que está sendo usado. Com o altíssimio volume de dados contínuos estruturados e não estruturados sendo gerados por aplicações e dispositívos, o conceito de dado não é mais stático e está se tornando dinâmico. Isto trás muitos desafios na análize de dados. Tradicionalmente os algorítimos de mineração de dados não são compatíveis para manipular fluxo de dados porque os algorítimos projetados realizam várias varreduras sobre os dados, o que não é possível fazer com fluxo de dados. Isso traz um desafio real aos pesquisadores de mineração de dados que estão trabalhando na área de fluxo de dados.
+A mineração de dados requer um algoritmo ou método para analizar o dado de interesse.Os dados podem ser dado de sequência, dados sequênciais, séries temporais, espaço-temporais, sinais de audio, sinais de vídeo entre outros. O conceito de fluxo de dados tem ganhou muito interesse prático no campo da mineração de dados. O fluxo de dados é uma sequência infinita de pontos definidos usando marcadores de tempo ou um índice. Nós tambem podemos ver os dados nos fluxos de dados como um vetor multidimensional contendo número inteiro, categórico, gráfico com os dados na forma estruturada ou não estruturado. Se o dado é não estruturado, talvez tenhamos de transformar em um formato compatível para o processamento pelo algoritmo que está sendo usado. Com o altíssimio volume de dados contínuos estruturados e não estruturados sendo gerados por aplicações e dispositívos, o conceito de dado não é mais stático e está se tornando dinâmico. Isto trás muitos desafios na análize de dados. Tradicionalmente os algoritmos de mineração de dados não são compatíveis para manipular fluxo de dados porque os algoritmos projetados realizam várias varreduras sobre os dados, o que não é possível fazer com fluxo de dados. Isso traz um desafio real aos pesquisadores de mineração de dados que estão trabalhando na área de fluxo de dados.
 
 2. Trabalhos Relacionados
 
@@ -31,9 +31,9 @@ Uma tremenda quantidade de dados são gerados pela internet a todo instante de v
 
 Este tornou-se um tema primordial que se tornou um tema de interesse para os pesquisadores que trabalham na área de mineração de dados e tem muito espaço para trabalhar para contribuir com a comunidade de pesquisa.
 
-Na ACM SIGIR, realizada em 2006, os autores, Shen, Yang e outros [8], propuseram  o método de detectar os threads nods fluxos de dados dinâmicos. O artigo discute três variações de algoritimo de clusterização de passagem única seguidos por um novo algorítimo de clusterização baseado em características linguísticas. Um método de redução de dimensão de fluxo de dados usando algorítmos de supervisão escalada é proposto em [9].
+Na ACM SIGIR, realizada em 2006, os autores, Shen, Yang e outros [8], propuseram  o método de detectar os threads nods fluxos de dados dinâmicos. O artigo discute três variações de algoritimo de clusterização de passagem única seguidos por um novo algoritmo de clusterização baseado em características linguísticas. Um método de redução de dimensão de fluxo de dados usando algoritmos de supervisão escalada é proposto em [9].
 
-As limitações das abordagens de PCA, LDA e MMC são discutidas. Os autores apontam inadequação do MMC para fluxo de dados. Um algorítimo supervisionado de reduçao de dimensão incremental é proposto para encontrar os requisitos do conjunto de fluxo de dados. Em [10] os autores mostram que o resultados mais citados são inválidos.
+As limitações das abordagens de PCA, LDA e MMC são discutidas. Os autores apontam inadequação do MMC para fluxo de dados. Um algoritmo supervisionado de reduçao de dimensão incremental é proposto para encontrar os requisitos do conjunto de fluxo de dados. Em [10] os autores mostram que o resultados mais citados são inválidos.
 
 3. Problemas no tratamento de fluxo de dados nas pesquisas
 
@@ -48,7 +48,7 @@ A [Tabela.1] abaixo mostra a comparação do processamento em banco de dados e e
 > |3|Difusão de dados|Não distribuído|Distribuído|
 > |4|Resultado comutacional|Preciso|Aproximado|
 > |5|Verificação de dados|Flexível|Limitado a uma verificação|
-> |6|Algorítimos|Tempo de processamento não é restrição|Tempo de processamento é mais importante do que dados perdidos|
+> |6|algoritmos|Tempo de processamento não é restrição|Tempo de processamento é mais importante do que dados perdidos|
 > |7|Amostras|Não necessário|Complexo de decidir quando obter amostra|
 > |8|Velocidade dos dados|Pode ser ignorado|Chegada dos dados é mais rápida que a taxa de processamento|
 > |9|Modelagem de dados|Permanente|Modelado como fluxo de dados transientes|
@@ -56,27 +56,27 @@ A [Tabela.1] abaixo mostra a comparação do processamento em banco de dados e e
 
 * 3.1 Restrição de memória
 
-O principal fator que precisamos reduzir, no tratamento de fluxo de dados é a quantidade de memória requerida pelo algorítimo de mineração de dados usado ou em desenvolvimento. Os algorítimos desenvolvidos para dados estáticos também chamados de dados non-stream, não são mais viáveis para manipular dados de um fluxo ou fluxo de dados. O desafio em trabalhar com fluxos de dados é que os dados tem sido gerados não são regulares e principalmente com tempo de intervalo irregulares. O foco do algorítimo deve ser essencialmente na otimização da memória utilizada pelo algorítimo de processamento. Uma vez que o dado no fluxo de dados é dinâmico, isto não está em mãos no instande de processa-los e também podem não estar em formato apropriado. A quantidade de dados gerados é geralmente enorme e continua crescendo e aumentando à medida que o tempo avança, isso torna a situação mais complicada ao lidar com dados de fluxo.
+O principal fator que precisamos reduzir, no tratamento de fluxo de dados é a quantidade de memória requerida pelo algoritmo de mineração de dados usado ou em desenvolvimento. Os algoritmos desenvolvidos para dados estáticos também chamados de dados non-stream, não são mais viáveis para manipular dados de um fluxo ou fluxo de dados. O desafio em trabalhar com fluxos de dados é que os dados tem sido gerados não são regulares e principalmente com tempo de intervalo irregulares. O foco do algoritmo deve ser essencialmente na otimização da memória utilizada pelo algoritmo de processamento. Uma vez que o dado no fluxo de dados é dinâmico, isto não está em mãos no instande de processa-los e também podem não estar em formato apropriado. A quantidade de dados gerados é geralmente enorme e continua crescendo e aumentando à medida que o tempo avança, isso torna a situação mais complicada ao lidar com dados de fluxo.
 
 * 3.2 Pré-processamento de dados
 
-A tarefa de processar dados é tambem um critério que se deve ter muito cuidado no processo de mineração de dados. O dado de entrada para o algorítimo de mineração de dados não precisa estar em formato adequado e por isso não é adequado para um processamento eficiente. Neste caso, nós precisamos de ver os dados em formato adequado para que este seja adequado para processamento. Este caso geralmente chega quando nós tentamos mineirar dados usando as ferramentas de mineração ou algorítimos existentes. Diferentes ferramentas de mineração disponíveis no mercado tem diferentes formatos de entrada de dados o que faz o usuário a converter o conjunto de dados de entrada existente para o novo formato. ISto por si só consome muito tempo, é trabalhoso e tem a chance de perder dados pois o dados é para ser inserido manualmente dentro de um novo formato que é suportado pela ferramenta.
+A tarefa de processar dados é tambem um critério que se deve ter muito cuidado no processo de mineração de dados. O dado de entrada para o algoritmo de mineração de dados não precisa estar em formato adequado e por isso não é adequado para um processamento eficiente. Neste caso, nós precisamos de ver os dados em formato adequado para que este seja adequado para processamento. Este caso geralmente chega quando nós tentamos mineirar dados usando as ferramentas de mineração ou algoritmos existentes. Diferentes ferramentas de mineração disponíveis no mercado tem diferentes formatos de entrada de dados o que faz o usuário a converter o conjunto de dados de entrada existente para o novo formato. ISto por si só consome muito tempo, é trabalhoso e tem a chance de perder dados pois o dados é para ser inserido manualmente dentro de um novo formato que é suportado pela ferramenta.
 
-O segundo fator é o tamanho do dos dados. A dimensão dos dados podem ser muito grande o que torna muito mais complexo para analizar. Muito do tempo de algorítimo é perdido neste caso. Um cuidado adequado deve ser tomado na redução do tamanho dos dados o que por outro lado pode ser muito destrutivo para o tempo de execução dos algorítimos. Por exemplo, se nós consideramos dados em texto, haverá vários recursos que serão desnecessários e indesejados, que não contribuirão para a tomada de decisão ou análise.
+O segundo fator é o tamanho do dos dados. A dimensão dos dados podem ser muito grande o que torna muito mais complexo para analizar. Muito do tempo de algoritmo é perdido neste caso. Um cuidado adequado deve ser tomado na redução do tamanho dos dados o que por outro lado pode ser muito destrutivo para o tempo de execução dos algoritmos. Por exemplo, se nós consideramos dados em texto, haverá vários recursos que serão desnecessários e indesejados, que não contribuirão para a tomada de decisão ou análise.
 
-Redução da dimensão dos conjuntos de dados de entrada também ajudam na redução de memória necessária e assim alcança a eficiência do algorítimo de mineração de dados.
+Redução da dimensão dos conjuntos de dados de entrada também ajudam na redução de memória necessária e assim alcança a eficiência do algoritmo de mineração de dados.
 
-* 3.3 Desafios no desenvolvimento de algorítimos padrões de mineração de dados
+* 3.3 Desafios no desenvolvimento de algoritmos padrões de mineração de dados
 
-Embora maiores quantidades de memória estejam disponíveis atualmente, o fator memória está dominando o campo da mineração de dados e colocando desafios para os pesquisadores deste campo, mais especificadamente o campo de fluxo de dados. A razão para isso é a exigência de memória principal o que é normalmente muito menor comparado a outras memórias disponíveis fora do processador. Desenvolver algorítimos padrões para lidar com fluxo de dados é um tanto quanto trabalhoso, pois temos a limitação de memória principal. Encontrar itens frequentes usando algorítimo de passagem simples é também impraticável no caso de trabalho com fluxo de dados por causa da natureza dinâmica do fluxo de dados.
+Embora maiores quantidades de memória estejam disponíveis atualmente, o fator memória está dominando o campo da mineração de dados e colocando desafios para os pesquisadores deste campo, mais especificadamente o campo de fluxo de dados. A razão para isso é a exigência de memória principal o que é normalmente muito menor comparado a outras memórias disponíveis fora do processador. Desenvolver algoritmos padrões para lidar com fluxo de dados é um tanto quanto trabalhoso, pois temos a limitação de memória principal. Encontrar itens frequentes usando algoritmo de passagem simples é também impraticável no caso de trabalho com fluxo de dados por causa da natureza dinâmica do fluxo de dados.
 
 * 3.4 Escolha da estrutura dos dados
 
-A escolha de uma estrutura adequada e efetiva é também um dos critérios que necessitam de cuidados no desenvolvimento  de algorítimos para fluxo de dados.
+A escolha de uma estrutura adequada e efetiva é também um dos critérios que necessitam de cuidados no desenvolvimento  de algoritmos para fluxo de dados.
 
 * 3.5 Identificando distribuições de dados e conceitos de destino
 
-Outro fator importante ao considerar mineração de fluxo de dados é identificar as mudanças nas distribuições de dados e conceitos de destino no decorrer do tempo. Identificando e explorando estas variações e adaptando classificadores adequados aos desvios de conceito também é um dos maiores desafios para os pesquisadores de mineração de dados desenvolverem novos algorítimos escalaveis para trabalhar com fluxo de dados.
+Outro fator importante ao considerar mineração de fluxo de dados é identificar as mudanças nas distribuições de dados e conceitos de destino no decorrer do tempo. Identificando e explorando estas variações e adaptando classificadores adequados aos desvios de conceito também é um dos maiores desafios para os pesquisadores de mineração de dados desenvolverem novos algoritmos escalaveis para trabalhar com fluxo de dados.
 
 * 3.6 Redução da dimensão
 
@@ -127,13 +127,23 @@ Assumimos o conjunto de itens para ser estático. Porém se o conjunto de itens 
 > 3. O terceiro indica o  contador de 0's no vetor do recurso binário;
 > 4. Status do nó denotando vivo ou morto;
 
-O principal problema em lidar com fluxo de dados é a restrição de memória porque estamos restritos a um simples scan do banco de dados. O algorítimo definido abaixo executa apenas uma vez o scan do banco de dados inicialmente e usa a informação para encontrar padrões frequentes usando FPGT.
+O principal problema em lidar com fluxo de dados é a restrição de memória porque estamos restritos a um simples scan do banco de dados. O algoritmo definido abaixo executa apenas uma vez o scan do banco de dados inicialmente e usa a informação para encontrar padrões frequentes usando FPGT.
 
-* 4.1 Algorítimo para FPGT (Conjunto de dados, Padrões frequentes)
+* 4.1 Algoritmo para FPGT (Conjunto de dados, Padrões frequentes)
 
+Seja **A** um item qualquer, **S** seja a janela deslizante, **S**i é o **i**ésima janela deslizante e **T** = {**T**1, **T**2, **T**3, ...**T**n} seja as transações na atual janela deslizante.
 
+* **Passo.1**: Inicie o nó raiz e gere um nó para cada item na lista de transações da janela deslizante.
 
+Este é o primeiro nó no FPGT o qual nós chamamos de nó inicial ou nó raiz contendo m campos onde m é o número de itens. Os campos do nó raiz não contém informação, más são apenas links apontando para os m itens do conjunto de dados da transação.
 
+Executamos o scan dos dados de toda base de dados pela primeira vez e armazenamos qual item pertence a qual transação.
+
+* **Passo.2**: Calcular m-conjuntoDeItens com i = 2, 3, 4,... m
+
+> **For** item na árvore FGPT gerada no passo 1
+>
+>> **For** 
 
 
 
