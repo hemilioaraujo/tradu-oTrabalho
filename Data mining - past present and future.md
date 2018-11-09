@@ -133,21 +133,25 @@ O principal problema em lidar com fluxo de dados é a restrição de memória po
 
 Seja **A** um item qualquer, **S** seja a janela deslizante, **S**i é o **i**ésima janela deslizante e **T** = {**T**1, **T**2, **T**3, ...**T**n} seja as transações na atual janela deslizante.
 
-* **Passo.1**: Inicie o nó raiz e gere um nó para cada item na lista de transações da janela deslizante.
+* **Passo.1:** Inicie o nó raiz e gere um nó para cada item na lista de transações da janela deslizante.
 
 Este é o primeiro nó no FPGT o qual nós chamamos de nó inicial ou nó raiz contendo m campos onde m é o número de itens. Os campos do nó raiz não contém informação, más são apenas links apontando para os m itens do conjunto de dados da transação.
 
 Executamos o scan dos dados de toda base de dados pela primeira vez e armazenamos qual item pertence a qual transação.
 
-* **Passo.2**: Calcular m-conjuntoDeItens com i = 2, 3, 4,... m
+* **Passo.2:** Calcular m-conjuntoDeItens com i = 2, 3, 4,... m
 
-> **For** item na árvore FGPT gerada no passo 1
->
+> **For** item na árvore FPGT gerada no passo 1
 >> **For** each of its corresponding siblings towards its right
->>
 >>> *Chamamos isto de vetor de recurso ternário porque temos tres valores 0, 1 ,U e quaternário já que cada nó tem 4 campos*
->>>
 >>> Crie um novo nó quaternário com quatro campos com o primeiro campo como 2-NomeConjuntoDeDado, o segundo campo como n-bit vetor de recurso ternário, o terceiro contendo contado de 1's no vetor de recurso ternário e o quarto indicando se o nó está vivo ou morto.
+>>> **If** (valorSuporte(2-conjuntoItem) de E-nó gerado < thresholdUsuario)
+>>>> Mate o ó correspondente da árvore e marque como nó morto
+>>>**Else**
+>>>> mantenha o nó e marque como nó vivo
+
+* **Passo.3:**
+
 
 
 
