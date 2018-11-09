@@ -197,8 +197,11 @@ Considere A = 10100. Isto representa que o item A está presente nas transaçõe
 Isto significa que:
 
 > Suporte(A) = 2
+>
 > Suporte(B) = 5
+>
 > Suporte(C) = 4
+>
 > Suporte(D) = 2
 
 Agora desde que todos os itens tenham o contador de 1's maior que 1. Isto significa que todos os nós estão vivos como mostra no nível-1 da árvore. As imagens a seguir são auto explicativas e demonstram o registro do algoritmo proposto.
