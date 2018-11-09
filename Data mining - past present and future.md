@@ -173,7 +173,7 @@ Seja o fluxo de dados de entrada das transações como mostrado na [Tabela.3]
 
 > |Transação|Itens|
 > |:---|:---|
-> |T1|A  B  C  -|
+> |T1|A  B  C  -| <- Sw1
 > |T2|-  B  C  D|
 > |T3|A  B  C  -|
 > |T4|-  B  C  -|
