@@ -173,13 +173,43 @@ Seja o fluxo de dados de entrada das transações como mostrado na [Tabela.3]
 
 > |Transação|Itens|
 > |:---|:---|
-> |T1|A  B  C  -| <- Sw1
+> |T1|A  B  C  -|
 > |T2|-  B  C  D|
 > |T3|A  B  C  -|
 > |T4|-  B  C  -|
 > |T5|-  B  -  D|
 > |T6|A  B  C  D|
 > |T7|-  -  C  D|
+
+*Sw1 <- T1, T2 e Sw2 <- T5, T6*
+
+Inicialmente O forme vetor de binários para toda a lista estática de itens no conjunto de itens definido como I = {I1, I2, I3, I4} = {A, B, C, D}.
+
+Vetor_Binario(A) = 10100
+Vetor_Binario(B) = 11111
+Vetor_Binario(C) = 11110
+Vetor_Binario(D) = 01001
+
+Onde A, B, C e D são todos vetores binários de 5 bits.
+
+Considere A = 10100. Isto representa que o item A está presente nas transações 1 e 3 somente. Em vetor binário, 1 indica presença e 0 indica ausência. Suponhamos que o threshold definido pelo usuário seja 20%. Isto significa suporte, S=20%. Em outras palavras como existem 5 transações, o item deve aparecer no mínimo em uma transação.
+
+Isto significa que:
+
+> Suporte(A) = 2
+> Suporte(B) = 5
+> Suporte(C) = 4
+> Suporte(D) = 2
+
+Agora desde que todos os itens tenham o contador de 1's maior que 1. Isto significa que todos os nós estão vivos como mostra no nível-1 da árvore. As imagens a seguir são auto explicativas e demonstram o registro do algoritmo proposto.
+
+
+
+
+
+
+
+
 
 
 
