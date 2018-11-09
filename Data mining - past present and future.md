@@ -37,20 +37,22 @@ As limitações das abordagens de PCA, LDA e MMC são discutidas. Os autores apo
 
 3. Problemas no tratamento de fluxo de dados nas pesquisas
 
-A tabela abaixo mostra a comparação do processamento em banco de dados e em fluxo de dados.
+A tabela [Tabela.1] abaixo mostra a comparação do processamento em banco de dados e em fluxo de dados.
 
-|Nº|Parâmetro|Banco de dados|Fluxo de dados|
-|----|-----------|----------------|----------------|
-|1|Acesso aos dados|Pode ou não ser sequencial|Sequencial|
-|2|Memória disponível|Flexível|Memória limitada|
-|3|Difusão de dados|Não distribuído|Distribuído|
-|4|Resultado comutacional|Preciso|Aproximado|
-|5|Verificação de dados|Flexível|Limitado a uma verificação|
-|6|Algorítimos|Tempo de processamento não é restrição|Tempo de processamento é mais importante do que dados perdidos|
-|7|Amostras|Não necessário|Complexo de decidir quando obter amostra|
-|8|Velocidade dos dados|Pode ser ignorado|Chegada dos dados é mais rápida que a taxa de processamento|
-|9|Modelagem de dados|Permanente|Modelado como fluxo de dados transientes|
-|10|Esquema de dados|Estático|Dinâmico|
+> Tabela.1. Dados processados **X** fluxo de dados 
+>
+> |Nº|Parâmetro|Banco de dados|Fluxo de dados|
+> |----|-----------|----------------|----------------|
+> |1|Acesso aos dados|Pode ou não ser sequencial|Sequencial|
+> |2|Memória disponível|Flexível|Memória limitada|
+> |3|Difusão de dados|Não distribuído|Distribuído|
+> |4|Resultado comutacional|Preciso|Aproximado|
+> |5|Verificação de dados|Flexível|Limitado a uma verificação|
+> |6|Algorítimos|Tempo de processamento não é restrição|Tempo de processamento é mais importante do que dados perdidos|
+> |7|Amostras|Não necessário|Complexo de decidir quando obter amostra|
+> |8|Velocidade dos dados|Pode ser ignorado|Chegada dos dados é mais rápida que a taxa de processamento|
+> |9|Modelagem de dados|Permanente|Modelado como fluxo de dados transientes|
+> |10|Esquema de dados|Estático|Dinâmico|
 
 * 3.1 Restrição de memória
 
@@ -89,13 +91,14 @@ Seja A e B dois itens quaisquer na transação. O vetor binário para A e B é d
 Agora, como o tamanho da janela deslizante é restrito a contar n transações, restringimmos a representação do vetor binário dos itens A e B para ser na forma de vetor binário n-bit como no exemplo:
 
 > Vetor_Binario(A) = A1 A2 A3 A4... An
+>
 > Vetor_Binario(B) = B1 B2 B3 B4... Bn
-
-*Onde n é o tamanho da janela deslizante.*
+>
+> *Onde n é o tamanho da janela deslizante.*
 
 Se um item A é presente na transação Ti então o bit do Vetor_Binario(A) correspondente é setado em 1. Igualmente, se o item A não  está presente na transação Ti o bit do Vetor_Binario(A) correspondente é setado em 0. Isto é demonstrado como os nós primeiro nível do Padrão Frequente de Geração de Árvores chamado FPGT (Frequent-Pattern-Generation-Tree) - [fig.1].
 
-
+* **Definição.1.** Seja Bit-1 e Bit-2 dois números ternários de um bit. Definimos a função F sobre Bit-1 e Bit-2 como na tabela.2
 
 
 
