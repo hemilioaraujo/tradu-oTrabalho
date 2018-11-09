@@ -152,7 +152,16 @@ Executamos o scan dos dados de toda base de dados pela primeira vez e armazenamo
 
 * **Passo.3:**
 
-
+...
+**For** item na árvore FPGT gerada no passo 1
+  **For** each of its corresponding siblings towards its right
+    *Chamamos isto de vetor de recurso ternário porque temos tres valores 0, 1 ,U e quaternário já que cada nó tem 4 campos*
+    Crie um novo nó quaternário com quatro campos com o primeiro campo como 2-NomeConjuntoDeDado, o segundo campo como n-bit vetor de recurso ternário, o terceiro contendo contado de 1's no vetor de recurso ternário e o quarto indicando se o nó está vivo ou morto.
+    **If** (valorSuporte(2-conjuntoItem) de E-nó gerado < thresholdUsuario)
+      Mate o ó correspondente da árvore e marque como nó morto
+    **Else**
+      mantenha o nó e marque como nó vivo
+...
 
 
 
