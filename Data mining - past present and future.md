@@ -167,6 +167,18 @@ Executamos o scan dos dados de toda base de dados pela primeira vez e armazenamo
 
 * 4.2 Estudo de caso
 
+Seja o fluxo de dados de entrada das transações como mostrado na [Tabela.3]
+
+> *Tabela.3 Fluxo de dados com sete transações e janela deslizante de tamanho = 5.*
+> |Transação|Itens|
+> |:---|:---|
+> |T1|A B C|
+> |T2|  B C D|
+> |T3|A B C|
+> |T4|  B C|
+> |T5|  B   D|
+> |T6|A B C D|
+> |T7|    C D|
 
 
 
