@@ -123,8 +123,8 @@ Se um item A é presente na transação Ti então o bit do Vetor_Binario(A) corr
 Assumimos o conjunto de itens para ser estático. Porém se o conjunto de itens for dinâmico e adicionado depois, nós temos que somente gerar um novo link a partir do nó raiz. Um nó na árvore FPGT consiste de tres campos:
 
 > 1. Primeiro campo representa o ID ou nome do item;
-> 2. O segundo é a representação do vetor do recurso binário do item;
-> 3. O terceiro indica o  contador de 0's no vetor do recurso binário;
+> 2. O segundo é a representação do vetor de recurso binário do item;
+> 3. O terceiro indica o  contador de 0's no vetor de recurso binário;
 > 4. Status do nó denotando vivo ou morto;
 
 O principal problema em lidar com fluxo de dados é a restrição de memória porque estamos restritos a um simples scan do banco de dados. O algoritmo definido abaixo executa apenas uma vez o scan do banco de dados inicialmente e usa a informação para encontrar padrões frequentes usando FPGT.
@@ -143,7 +143,11 @@ Executamos o scan dos dados de toda base de dados pela primeira vez e armazenamo
 
 > **For** item na árvore FGPT gerada no passo 1
 >
->> **For** 
+>> **For** each of its corresponding siblings towards its right
+>>
+>>> *Chamamos isto de vetor de recurso ternário porque temos tres valores 0, 1 ,U e quaternário já que cada nó tem 4 campos*
+>>>
+>>> Crie um novo nó quaternário com quatro campos com o primeiro campo como 2-NomeConjuntoDeDado, o segundo campo como n-bit vetor de recurso ternário, o terceiro contendo contado de 1's no vetor de recurso ternário e o quarto indicando se o nó está vivo ou morto.
 
 
 
