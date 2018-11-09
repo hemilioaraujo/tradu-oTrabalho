@@ -98,7 +98,9 @@ Agora, como o tamanho da janela deslizante é restrito a contar n transações, 
 
 Se um item A é presente na transação Ti então o bit do Vetor_Binario(A) correspondente é setado em 1. Igualmente, se o item A não  está presente na transação Ti o bit do Vetor_Binario(A) correspondente é setado em 0. Isto é demonstrado como os nós primeiro nível do Padrão Frequente de Geração de Árvores chamado FPGT (Frequent-Pattern-Generation-Tree) - [fig.1].
 
-* **Definição.1:** > Seja Bit-1 e Bit-2 dois números ternários de um bit. Definimos a função F sobre Bit-1 e Bit-2 como na [tabela.2]:
+* **Definição.1:**
+
+> Seja Bit-1 e Bit-2 dois números ternários de um bit. Definimos a função F sobre Bit-1 e Bit-2 como na [tabela.2]:
 >
 > Tabela.2. Definição da função **F**.
 >
