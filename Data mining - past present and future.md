@@ -3,6 +3,7 @@
 **M.S.B. PhridviRaj (A), C.V. GuruRao (B)**
 
 **A** - Departamento de Ciência e Engenharia da Computação, Kakatiya Instituto de Tecnologia e Ciência, Warangal, INDIA
+
 **B** - Departamento de Ciência e Engenharia da Computação, S.R. Faculdade Engenharia (Autônomo), Hasanparthy, Warangal,INDIA
 
 ## Abstrato
