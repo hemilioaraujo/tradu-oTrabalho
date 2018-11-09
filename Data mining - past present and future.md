@@ -37,7 +37,7 @@ As limitações das abordagens de PCA, LDA e MMC são discutidas. Os autores apo
 
 3. Problemas no tratamento de fluxo de dados nas pesquisas
 
-A tabela [Tabela.1] abaixo mostra a comparação do processamento em banco de dados e em fluxo de dados.
+A [Tabela.1] abaixo mostra a comparação do processamento em banco de dados e em fluxo de dados.
 
 > Tabela.1. Dados processados **X** fluxo de dados 
 >
@@ -98,7 +98,23 @@ Agora, como o tamanho da janela deslizante é restrito a contar n transações, 
 
 Se um item A é presente na transação Ti então o bit do Vetor_Binario(A) correspondente é setado em 1. Igualmente, se o item A não  está presente na transação Ti o bit do Vetor_Binario(A) correspondente é setado em 0. Isto é demonstrado como os nós primeiro nível do Padrão Frequente de Geração de Árvores chamado FPGT (Frequent-Pattern-Generation-Tree) - [fig.1].
 
-* **Definição.1.** Seja Bit-1 e Bit-2 dois números ternários de um bit. Definimos a função F sobre Bit-1 e Bit-2 como na tabela.2
+* **Definição.1:** Seja Bit-1 e Bit-2 dois números ternários de um bit. Definimos a função F sobre Bit-1 e Bit-2 como na [tabela.2]:
+
+> Tabela.2. Definição da função **F**.
+>
+> |Bit-1|Bit-2|F(Bit-1,Bit-2)|
+> |---|---|---|
+> |0|0|Z|
+> |0|1|0|
+> |1|0|0|
+> |1|1|1|
+> |0|U|Z|
+> |U|0|Z|
+> |U|U|Z|
+> |1|U|Z|
+> |U|1|Z|
+
+* **Definição.2:** A função ternária F na [Tabela.2] recebe como entrada dois números ternários de um bit e entrega como saída um bit de valor 0 ,1 ou Z. Extendemos a função F na [Tabela.2] para calcular mais de dois valores ternários do conjunto de itens aplicando F para cada bit correspondente dos vetores de característica.
 
 
 
