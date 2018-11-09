@@ -152,7 +152,7 @@ Executamos o scan dos dados de toda base de dados pela primeira vez e armazenamo
 
 * **Passo.3:**
 
-...javascript
+```
 **For** item na árvore FPGT gerada no passo 1
   **For** each of its corresponding siblings towards its right
     *Chamamos isto de vetor de recurso ternário porque temos tres valores 0, 1 ,U e quaternário já que cada nó tem 4 campos*
@@ -161,7 +161,7 @@ Executamos o scan dos dados de toda base de dados pela primeira vez e armazenamo
       Mate o ó correspondente da árvore e marque como nó morto
     **Else**
       mantenha o nó e marque como nó vivo
-...
+```
 
 
 
