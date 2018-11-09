@@ -163,13 +163,14 @@ Executamos o scan dos dados de toda base de dados pela primeira vez e armazenamo
 
 * **Passo.5:** Exibir os nós com os primeiros K-maiores valores os quais formam os frequentes top-K itens.
 
-*Fim do algoritmo**
+**Fim do algoritmo**
 
 * 4.2 Estudo de caso
 
 Seja o fluxo de dados de entrada das transações como mostrado na [Tabela.3]
 
 > *Tabela.3 Fluxo de dados com sete transações e janela deslizante de tamanho = 5.*
+
 > |Transação|Itens|
 > |:---|:---|
 > |T1|A B C|
