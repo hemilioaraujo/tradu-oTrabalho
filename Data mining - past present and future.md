@@ -120,7 +120,16 @@ Se um item A é presente na transação Ti então o bit do Vetor_Binario(A) corr
 
 > A função ternária F na [Tabela.2] recebe como entrada dois números ternários de um bit e entrega como saída um bit de valor 0 ,1 ou Z. Extendemos a função F na [Tabela.2] para calcular mais de dois valores ternários do conjunto de itens aplicando F para cada bit correspondente dos vetores de característica.
 
+Assumimos o conjunto de itens para ser estático. Porém se o conjunto de itens for dinâmico e adicionado depois, nós temos que somente gerar um novo link a partir do nó raiz. Um nó na árvore FPGT consiste de tres campos:
 
+> 1. Primeiro campo representa o ID ou nome do item;
+> 2. O segundo é a representação do vetor do recurso binário do item;
+> 3. O terceiro indica o  contador de 0's no vetor do recurso binário;
+> 4. Status do nó denotando vivo ou morto;
+
+O principal problema em lidar com fluxo de dados é a restrição de memória porque estamos restritos a um simples scan do banco de dados. O algorítimo definido abaixo executa apenas uma vez o scan do banco de dados inicialmente e usa a informação para encontrar padrões frequentes usando FPGT.
+
+* 4.1 Algorítimo para FPGT (Conjunto de dados, Padrões frequentes)
 
 
 
