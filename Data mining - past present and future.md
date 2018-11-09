@@ -143,28 +143,29 @@ Executamos o scan dos dados de toda base de dados pela primeira vez e armazenamo
 
 > **For** item na árvore FPGT gerada no passo 1
 >> **For** each of its corresponding siblings towards its right
->>> *Chamamos isto de vetor de recurso ternário porque temos tres valores 0, 1 ,U e quaternário já que cada nó tem 4 campos*
+>>> *//Chamamos isto de vetor de recurso ternário porque temos tres valores 0, 1 ,U e quaternário já que cada nó tem 4 campos*
 >>> Crie um novo nó quaternário com quatro campos com o primeiro campo como 2-NomeConjuntoDeDado, o segundo campo como n-bit vetor de recurso ternário, o terceiro contendo contado de 1's no vetor de recurso ternário e o quarto indicando se o nó está vivo ou morto.
 >>> **If** (valorSuporte(2-conjuntoItem) de E-nó gerado < thresholdUsuario)
 >>>> Mate o ó correspondente da árvore e marque como nó morto
 >>>**Else**
->>>> mantenha o nó e marque como nó vivo
+>>>> reter o nó e marque como nó vivo
 
 * **Passo.3:**
 
-```
-**For** item na árvore FPGT gerada no passo 1
-  **For** each of its corresponding siblings towards its right
-    *Chamamos isto de vetor de recurso ternário porque temos tres valores 0, 1 ,U e quaternário já que cada nó tem 4 campos*
-    Crie um novo nó quaternário com quatro campos com o primeiro campo como 2-NomeConjuntoDeDado, o segundo campo como n-bit vetor de recurso ternário, o terceiro contendo contado de 1's no vetor de recurso ternário e o quarto indicando se o nó está vivo ou morto.
-    **If** (valorSuporte(2-conjuntoItem) de E-nó gerado < thresholdUsuario)
-      Mate o ó correspondente da árvore e marque como nó morto
-    **Else**
-      mantenha o nó e marque como nó vivo
-```
+> **For** cada nó gerado no [Passo.2]
+>> *Considerar somente nós pai do nó no nível i+1*
+>> **If** houver um nó com conjunto de item no nível-i que é subconjunto do atual E-nó no nível i+1 **and** tem o mesmo valor de suporte
+>>> Mate o nó no nível-i *//Isto é porque o nó no nível-i é um subconjunto e não tem impacto na exclusão*
+>> **Else**
+>>> reter o nó para o futuro
 
+* **Passo.4:** Repetir [Passo.3] até receber que novo nó não é gerado.
 
+* **Passo.5:** Exibir os nós com os primeiros K-maiores valores os quais formam os frequentes top-K itens.
 
+*Fim do algoritmo**
+
+* 4.2 Estudo de caso
 
 
 
