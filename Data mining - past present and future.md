@@ -3,17 +3,20 @@
 ## Autores:
 
 ### M.S.B. PhridviRaj
->> Departamento de Ciência e Engenharia da Computação
->> Instituto de Tecnologia e Ciência Kakatiya, Warangal, INDIA
+> Departamento de Ciência e Engenharia da Computação
+>
+> Instituto de Tecnologia e Ciência Kakatiya, Warangal, INDIA
 
 ### C.V. Guru Rao 
->> Departamento de Ciência e Engenharia da Computação
->> S.R. Faculdade Engenharia (Autônomo), Hasanparthy, Warangal,INDIA
+> Departamento de Ciência e Engenharia da Computação
+>
+> S.R. Faculdade Engenharia (Autônomo), Hasanparthy, Warangal,INDIA
 
 ##Tradução
 ### Hemílio Lauro de Araújo Melo
->> Estudante de Ciência da Computação
->> Universidade Presidente Antônio Carlos, Minas Gerais, Brasil
+> Estudante de Ciência da Computação
+>
+> Universidade Presidente Antônio Carlos, Minas Gerais, Brasil
 
 ## Abstrato
 
