@@ -206,7 +206,9 @@ Isto significa que:
 
 Agora já que todos os itens tem o contador de 1's maior que 1. Isto significa que todos os nós estão vivos como mostra no nível-1 da árvore. As imagens a seguir são auto explicativas e demonstram o registro do algoritmo proposto.
 
+![Legenda](https://github.com/hemilioaraujo/traducaoTrabalho/blob/master/img/fig1.jpg)
 
+*Fig.1 FPGT Frequent Pattern Generation Tree mostrando a criação do nó raiz e trabalhando SW1*
 
 
 
