@@ -86,7 +86,15 @@ Consideramos o método de encontrar os itens frequentes de um fluxo de dados usa
 
 Seja A e B dois itens quaisquer na transação. O vetor binário para A e B é demonstrado por Bin-Vector(A) e  Bin-Vector(B).
 
-Agora, como o tamanho da janela deslizante é restrito a contar n transações, restringimmos a representação do vetor binário para que os itens A e B para ser na forma n-bit binary vector.
+Agora, como o tamanho da janela deslizante é restrito a contar n transações, restringimmos a representação do vetor binário dos itens A e B para ser na forma de vetor binário n-bit como no exemplo:
+
+    Vetor_Binario(A) = A1 A2 A3 A4... An
+    Vetor_Binario(B) = B1 B2 B3 B4... Bn
+
+Onde n é o tamanho da janela deslizante.
+
+Se um item A é presente na transação Ti então o bit do Vetor_Binario(A) correspondente é setado em 1. Igualmente, se o item A não  está presente na transação Ti o bit do Vetor_Binario(A) correspondente é setado em 0.
+
 
 
 
