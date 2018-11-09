@@ -1,4 +1,11 @@
-# Abstrato
+# Mineração de dados - Passado, Presente e Futuro - uma pesquisa sobre fluxo de dados
+
+**M.S.B. PhridviRaj (A), C.V. GuruRao (B)**
+
+**A** - Departamento de Ciência e Engenharia da Computação, Kakatiya Instituto de Tecnologia e Ciência, Warangal, INDIA
+**B** - Departamento de Ciência e Engenharia da Computação, S.R. Faculdade Engenharia (Autônomo), Hasanparthy, Warangal,INDIA
+
+## Abstrato
 
 A Mineração de Fluxo de Dados é uma das áreas que ganham muito significado prático e está progredindo em um ritmo acelerado com novos métodos,
 metodologias e resultados em várias aplicações relacionadas à previsão de medicina, ciência da computação, bioinformática e mercado de ações, previsão do tempo, texto, processamento de áudio e vídeo para citar alguns. Os dados são a principal preocupação na mineração de dados.
