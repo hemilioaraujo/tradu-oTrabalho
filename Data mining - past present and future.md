@@ -15,8 +15,6 @@
 >> Estudante de Ciência da Computação
 >> Universidade Presidente Antônio Carlos, Minas Gerais, Brasil
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br />Este obra está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Atribuição-SemDerivações-SemDerivados 3.0 Não Adaptada</a>.
-
 ## Abstrato
 
 A Mineração de Fluxo de Dados é uma das áreas que ganham muito significado prático e está progredindo em um ritmo acelerado com novos métodos,
@@ -304,6 +302,8 @@ Transactions on Knowledge and Data Engineering, 2008; 20(5).
 
 [20] Hua-Fu Li, Suh-Yin Lee. Approximate mining of maximal frequent itemsets in data streams with different window models, Expert Systems
 with Applications, 2008; 35: 781–789.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br />Este obra está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Atribuição-SemDerivações-SemDerivados 3.0 Não Adaptada</a>.
 
 [RETORNAR]
 
